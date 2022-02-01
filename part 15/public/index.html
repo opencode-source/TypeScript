@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>مدیریت مالی</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
+  </div>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>نوع:</label>
+        <select id="type">
+          <option value="صورتحساب">صورتحساب</option>
+          <option value="پرداخت">پرداخت</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>به / از:</label>
+        <input type="text" id="tofrom">
+      </div>   
+      <div class="field">
+        <label>جزئیات:</label>
+        <input type="text" id="details">
+      </div>
+      <div class="field">
+        <label>مقدار (T):</label>
+        <input type="number" id="amount">
+      </div>
+      <button>اضافه</button>
+    </form>
+
+    <a href="https://www.youtube.com/channel/UC7XXvzmnun91PmKLP2hTGQg">OpenCode</a>
+  </footer>
+
+  <script type="module" src='app.js'></script>
+</body>
+</html>
