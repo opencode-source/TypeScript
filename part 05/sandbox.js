@@ -1,0 +1,17 @@
+var age;
+age = 25;
+console.log(age);
+age = 'mahdi';
+console.log(age);
+age = true;
+console.log(age);
+var mixed = [];
+mixed.push(25);
+mixed.push('mahdi');
+mixed.push(false);
+console.log(mixed);
+var person;
+person = { name: 'mahdi', age: 25 };
+console.log(person);
+person = { name: 25, age: 'mahdi' };
+console.log(person);
